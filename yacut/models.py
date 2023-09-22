@@ -1,7 +1,8 @@
 from datetime import datetime
 
-from yacut import db
 from flask import url_for
+
+from yacut import db
 
 
 class URLMap(db.Model):

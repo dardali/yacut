@@ -1,9 +1,8 @@
 import random
 import string
 
-from settings import DEFAULT_LINK_LENGHT
-
 from .models import URLMap
+from settings import DEFAULT_LINK_LENGHT
 
 
 def get_unique_short_id():

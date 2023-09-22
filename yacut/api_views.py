@@ -3,12 +3,11 @@ from http import HTTPStatus
 
 from flask import jsonify, request
 
-from settings import REGEX_PATTERN, USER_LINK_LENGHT
-
 from . import app, db
 from .error_handlers import APIUsageError
 from .models import URLMap
 from .utils import get_unique_short_id
+from settings import REGEX_PATTERN, USER_LINK_LENGHT
 
 
 @app.route('/api/id/', methods=['POST'])
